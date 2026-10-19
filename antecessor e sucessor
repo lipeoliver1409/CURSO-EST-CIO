@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <locale.h>
+
+// antecessor e sucessor
+
+   int main(){
+   	
+   	
+   	setlocale(LC_ALL, "PORTUGUESE");
+   	
+   	float num = 0;
+   float sus = 1;
+   float ant = 1;
+   
+   printf("número: ");
+   scanf("%f", &num);
+   
+   ant = num - 1;
+   sus = num + 1;
+   
+   printf("sucessor: %.2f \n", sus);
+   printf("antecessor: %2f \n", ant);
+   
+   return 0;
+}
