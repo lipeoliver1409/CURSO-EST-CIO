@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <locale.h>
+
+// doblo, triplo e metade
+
+ int main() {
+ 	
+ 	setlocale(LC_ALL, "PORTUGUESE");
+ 	
+ 	float num = 0;
+ 	float dob = 2;
+ 	float tri = 3;
+ 	float met = 0.5;
+ 	
+ 	 printf("número: ");
+     scanf("%f", &num);
+     
+     dob = num * dob;
+     tri = num * tri;
+     met = num * met;
+     
+     printf ("Dobro do número: %.2f \n, dob");
