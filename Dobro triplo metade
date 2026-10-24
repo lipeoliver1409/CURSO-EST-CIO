@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <locale.h>
 
-// doblo, triplo e metade
+// dobro, triplo e metade
 
  int main() {
  	
@@ -19,4 +19,10 @@
      tri = num * tri;
      met = num * met;
      
-     printf ("Dobro do número: %.2f \n, dob");
+     printf("Dobro do número: %.2f \n", dob);
+     printf("Triplo do número: %.2f \n", tri);
+     printf("Metade do número: %.2f \n", met);
+     
+     return 0;
+     
+     }
